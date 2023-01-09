@@ -30,7 +30,7 @@ country = st.sidebar.radio(
 
 df_selected = df_cars.copy()
 if country != " All":
-    df_selected = df_cars[df_cars["continent"] == country].reset_index()
+    df_selected = df_cars[df_cars["continent"] == country].reset_index(drop=true)
 
 #st.write(country)
 #st.write(df_selected)
