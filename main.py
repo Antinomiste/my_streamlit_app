@@ -59,4 +59,6 @@ axs[1,0].set_title("seconds to 60 miles per hour")
 sns.violinplot(df_selected["cylinders"],ax=axs[1,1])
 axs[1,1].set_title("cylinders")
 
+st.write("Explication : Vous voyez là diverses distributions pour le ou les pays sélectionnés que j'ai franchement la flemme de commenter.")
+
 st.pyplot(viz_distribution.figure)
